@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" />
-    <title>Welcome | Home</title>
+    <title> Horizon Hotel | Offers</title>
 </head>
 
 <body>
-    <header class="header" id="index-header">
+    <header id="offers-header">
         <nav id="nav-bar">
             <ul class="nav-list">
                 <li><a href="index.html" class="nav-button">Home</a></li>
@@ -30,39 +30,29 @@
                 <li><a href="contact.html" class="nav-button">Contact</a></li>
             </ul>
         </nav>
-        <div id="welcome-message">
-            <h1 id="welcome">Welcome to Horizon Hotel</h1>
-        </div>
     </header>
     <main>
-        <div class="about">
-            <h2>Get away with a memorable vacation</h2>
-            <p>Enjoy a deligthful vacation in Hotel Santos where you can relax and enjoy our services </p>
+        <div class="contact">
+            <h2>Contact</h2>
         </div>
-        <div id="section">
-            <div class="sub-section" id="sub-section1">
-                <div id="picture1" class="picture"></div>
-                <div id="text1" class="text">
-                    <p>Horizon Hotel is infused in every experience, the lush of poolscape and uninterrupted stretch at the beach. Embark on
-                    adventures on the beach like surfing, volleyball or banana boat rides. Or, simply relax on a chaise beside the pool.</p>
+        <div id="form-section">
+            <form class="form">
+                <div class="form-group">
+                    <label for="name-input" id="name-label">Name</label>
+                    <input type="text" class="input-text" id="name-input" placeholder="Enter Your Name" required>
                 </div>
-            </div>
-            <div class="sub-section reversed" id="sub-section2">
-                <div id="picture2" class="picture"></div>
-                <div id="text2" class="text">
-                    <p>You won't have to stray far from your sun lounger to find a cool drink at this laidback Luquillos bar. Overlooking the
-                    pool deck, Horizon Hotel bar serves popular rum cocktails, and a varied menu of snacks, light meals, favorite sandwiches
-                    and pizzas. Order them as you sunbathe or sit in the shade under an umbrella.</p>
+                <div class="form-group">
+                    <label for="email-input" id="email-label">Email</label>
+                    <input type="email" class="input-text" id="email-input" placeholder="Enter Your Email" required>
                 </div>
-            </div>
-            <div class="sub-section" id="sub-section3">
-                <div id="picture3" class="picture"></div>
-                <div id="text3" class="text">
-                    <p>Horizon Hotel pristine white sands and warm breezes offer the perfect escape from the hustle and bustle of everyday
-                    life. Guests at Horizon Hotel can enjoy the ultimate getaway with 300 feet of secluded beachfront perfect for swimming,
-                    sand castles, or simply soaking up the sun.</p>
+                <div class="form-group">
+                    <label for="comment" id="comment-label">Comment</label>
+                    <textarea name="comment" id="comment" rows="5" cols="55"></textarea>
                 </div>
-            </div>
+                <div id="submit-div">
+                    <button class="button" type="button" id="submit">Submit</button>
+                </div>
+            </form>
         </div>
     </main>
     <footer id="footer">

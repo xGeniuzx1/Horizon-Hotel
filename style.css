@@ -108,7 +108,7 @@ nav ul li {
     background: rgba(0, 0, 0, 0.2);
 }
 
-#about {
+.about {
     height: 300px;
     display: flex;
     align-items: center;
@@ -116,11 +116,11 @@ nav ul li {
     flex-direction: column;
 }
 
-#about h2 {
+.about h2 {
     margin-bottom: 20px;
 }
 
-#about p {
+.about p {
     width: 800px;
     text-align: center;
 }
@@ -356,8 +356,54 @@ nav ul li {
 
 #submit {
     width: 100px;
+    color: white;
 }
 
 .reversed {
     flex-direction: row-reverse;
+}
+
+#picture1-events {
+    background: url(/imagenes/En\ lo\ profundo.png) no-repeat center center/cover;
+}
+
+#picture2-events {
+    background: url(/imagenes/Hommy\ Ramos.png) no-repeat center center/cover;
+}
+
+#picture3-events {
+    background: url(/imagenes/Screenshot\ 2022-05-28\ 190808.png) no-repeat center center/cover;
+}
+
+#picture1-gallery {
+    background: url("https://images.unsplash.com/photo-1582719508461-905c673771fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1450&q=80") no-repeat center center/cover;
+}
+
+#picture2-gallery {
+    background: url("https://images.unsplash.com/photo-1623718649591-311775a30c43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat center center/cover;
+}
+
+#picture3-gallery {
+    background: url("https://images.unsplash.com/photo-1551529834-525807d6b4f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fHJlc29ydCUyMGJhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60") no-repeat center center/cover;
+}
+
+#picture4-gallery {
+    background: url("https://images.unsplash.com/photo-1605538108528-8b9be1168ad8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80") no-repeat center center/cover;
+}
+
+#picture5-gallery {
+    background: url("https://images.unsplash.com/photo-1612347572521-d3e1956fc263?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat center center/cover;
+}
+
+#picture6-gallery {
+    background: url("https://images.unsplash.com/photo-1551530417-b5695ae086e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fHJlc29ydCUyMHJvb218ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60") no-repeat center center/cover;
+}
+
+.contact {
+    height: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
 }
